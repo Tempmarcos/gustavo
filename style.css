@@ -1,0 +1,29 @@
+body{
+    background-image: url("gustavo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, q, button, img {
+    margin: auto;
+    height: 50%;
+    margin-left: 25%;
+}
+
+img, q {
+    padding-top: 20px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:goldenrod;
+    animation-name: gustavo;
+    animation-duration: 2s;
+}
+
+
+@keyframes gustavo {
+    from {color: black}
+    from {margin-left: 0%}
+    to {color: goldenrod}
+    to {margin-left: 25%}
+}
